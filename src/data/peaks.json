@@ -1,0 +1,653 @@
+[
+  {
+    "id": "mont-blanc",
+    "name": "Mont Blanc",
+    "elevation": 4808,
+    "location": { "lat": 45.8326, "lng": 6.8652 },
+    "country": "France / Italie",
+    "continent": "Europe",
+    "range": "Alpes",
+    "flagEmoji": "🇫🇷",
+    "description": "Toit de l'Europe occidentale, le Mont Blanc domine la frontière franco-italienne. Son massif de granite et de glace attire chaque année des dizaines de milliers d'alpinistes du monde entier. La Voie Normale, ouverte en 1786, reste le chemin le plus emprunté.",
+    "firstAscent": {
+      "year": 1786,
+      "climbers": ["Jacques Balmat", "Michel Gabriel Paccard"]
+    },
+    "routes": [
+      {
+        "name": "Voie Normale (Goûter)",
+        "difficulty": "PD",
+        "description": "L'itinéraire classique depuis Saint-Gervais, passant par le Refuge du Goûter et l'arête des Bosses.",
+        "coordinates": [
+          [45.8326, 6.8652],
+          [45.845, 6.83],
+          [45.855, 6.83],
+          [45.855, 6.835]
+        ]
+      },
+      {
+        "name": "Arête des Cosmiques",
+        "difficulty": "AD",
+        "description": "Magnifique arête mixte depuis l'Aiguille du Midi, nécessitant une bonne maîtrise de la progression sur glace et rocher.",
+        "coordinates": [
+          [45.879, 6.887],
+          [45.865, 6.875],
+          [45.845, 6.860],
+          [45.8326, 6.8652]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Refuge du Goûter",
+        "elevation": 3835,
+        "lat": 45.855,
+        "lng": 6.835
+      },
+      {
+        "name": "Refuge des Grands Mulets",
+        "elevation": 3051,
+        "lat": 45.855,
+        "lng": 6.862
+      },
+      {
+        "name": "Refuge Cosmiques",
+        "elevation": 3613,
+        "lat": 45.876,
+        "lng": 6.887
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1786,
+        "climbers": ["Jacques Balmat", "Michel Gabriel Paccard"],
+        "note": "Première ascension de l'histoire, point de départ de l'alpinisme moderne"
+      },
+      {
+        "year": 1808,
+        "climbers": ["Marie Paradis"],
+        "note": "Première femme à atteindre le sommet"
+      },
+      {
+        "year": 1865,
+        "climbers": ["Edward Whymper"],
+        "note": "Ascension solo après la tragédie du Cervin"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -15, "windKmh": 65, "precipMm": 80 },
+      { "month": "Fév", "avgTemp": -14, "windKmh": 60, "precipMm": 70 },
+      { "month": "Mar", "avgTemp": -12, "windKmh": 58, "precipMm": 75 },
+      { "month": "Avr", "avgTemp": -8, "windKmh": 50, "precipMm": 85 },
+      { "month": "Mai", "avgTemp": -4, "windKmh": 42, "precipMm": 90 },
+      { "month": "Juin", "avgTemp": -1, "windKmh": 35, "precipMm": 95 },
+      { "month": "Juil", "avgTemp": 2, "windKmh": 30, "precipMm": 80 },
+      { "month": "Août", "avgTemp": 1, "windKmh": 32, "precipMm": 85 },
+      { "month": "Sep", "avgTemp": -4, "windKmh": 40, "precipMm": 70 },
+      { "month": "Oct", "avgTemp": -9, "windKmh": 52, "precipMm": 65 },
+      { "month": "Nov", "avgTemp": -13, "windKmh": 60, "precipMm": 75 },
+      { "month": "Déc", "avgTemp": -15, "windKmh": 68, "precipMm": 80 }
+    ]
+  },
+  {
+    "id": "matterhorn",
+    "name": "Cervin (Matterhorn)",
+    "elevation": 4478,
+    "location": { "lat": 45.9766, "lng": 7.6584 },
+    "country": "Suisse / Italie",
+    "continent": "Europe",
+    "range": "Alpes pennines",
+    "flagEmoji": "🇨🇭",
+    "description": "Icône absolue de l'alpinisme, le Cervin avec sa silhouette pyramidale est l'une des montagnes les plus photographiées au monde. Dominant Zermatt, son arête nord reste l'une des six grandes faces nord des Alpes.",
+    "firstAscent": {
+      "year": 1865,
+      "climbers": ["Edward Whymper", "Charles Hudson", "Douglas Hadow", "Lord Francis Douglas", "Michel Croz", "Peter Taugwalder père", "Peter Taugwalder fils"]
+    },
+    "routes": [
+      {
+        "name": "Arête Hörnli",
+        "difficulty": "AD",
+        "description": "L'arête nord-est est la voie normale suisse, la plus fréquentée. Mixte rocher/glace avec passages délicats.",
+        "coordinates": [
+          [45.9766, 7.6584],
+          [45.973, 7.656],
+          [45.970, 7.654],
+          [45.968, 7.652]
+        ]
+      },
+      {
+        "name": "Face Nord",
+        "difficulty": "ED",
+        "description": "L'une des six grandes faces nord des Alpes. Voie extrêmement exigeante sur glace et rocher, ouverte en 1931 par Franz et Toni Schmid.",
+        "coordinates": [
+          [45.9766, 7.6584],
+          [45.980, 7.657],
+          [45.983, 7.658]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Hörnlihütte",
+        "elevation": 3260,
+        "lat": 45.968,
+        "lng": 7.652
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1865,
+        "climbers": ["Edward Whymper"],
+        "note": "Première ascension tragique — 4 des 7 alpinistes périssent lors de la descente"
+      },
+      {
+        "year": 1931,
+        "climbers": ["Franz Schmid", "Toni Schmid"],
+        "note": "Première de la face nord en solitaire"
+      },
+      {
+        "year": 1992,
+        "climbers": ["Christophe Profit"],
+        "note": "Enchaînement des 4 faces en hiver en 24h"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -12, "windKmh": 55, "precipMm": 60 },
+      { "month": "Fév", "avgTemp": -11, "windKmh": 50, "precipMm": 55 },
+      { "month": "Mar", "avgTemp": -9, "windKmh": 48, "precipMm": 65 },
+      { "month": "Avr", "avgTemp": -5, "windKmh": 42, "precipMm": 72 },
+      { "month": "Mai", "avgTemp": -1, "windKmh": 38, "precipMm": 78 },
+      { "month": "Juin", "avgTemp": 3, "windKmh": 30, "precipMm": 82 },
+      { "month": "Juil", "avgTemp": 6, "windKmh": 28, "precipMm": 75 },
+      { "month": "Août", "avgTemp": 5, "windKmh": 30, "precipMm": 78 },
+      { "month": "Sep", "avgTemp": 0, "windKmh": 38, "precipMm": 65 },
+      { "month": "Oct", "avgTemp": -5, "windKmh": 48, "precipMm": 58 },
+      { "month": "Nov", "avgTemp": -9, "windKmh": 55, "precipMm": 62 },
+      { "month": "Déc", "avgTemp": -12, "windKmh": 60, "precipMm": 60 }
+    ]
+  },
+  {
+    "id": "everest",
+    "name": "Everest",
+    "elevation": 8849,
+    "location": { "lat": 27.9881, "lng": 86.9253 },
+    "country": "Népal / Tibet",
+    "continent": "Asie",
+    "range": "Himalaya",
+    "flagEmoji": "🇳🇵",
+    "description": "Toit du monde et sommet de tous les superlatifs. Le mont Everest, appelé Sagarmatha en népalais et Chomolungma en tibétain, est le point culminant de la Terre à 8 849 mètres. Son ascension reste un défi technique et physiologique ultime.",
+    "firstAscent": {
+      "year": 1953,
+      "climbers": ["Edmund Hillary", "Tenzing Norgay"]
+    },
+    "routes": [
+      {
+        "name": "Col Sud (voie népalaise)",
+        "difficulty": "D",
+        "description": "La voie classique par le versant népalais, passant par le camp de base, la cascade de glace du Khumbu, le camp IV au Col Sud.",
+        "coordinates": [
+          [27.9881, 86.9253],
+          [27.974, 86.922],
+          [27.962, 86.920],
+          [27.940, 86.913]
+        ]
+      },
+      {
+        "name": "Arête nord-est (voie tibétaine)",
+        "difficulty": "D",
+        "description": "Voie historique par le versant tibétain, empruntée par Mallory et Irvine en 1924. Passe par le col nord et les trois marches rocheuses.",
+        "coordinates": [
+          [27.9881, 86.9253],
+          [27.993, 86.932],
+          [28.005, 86.940],
+          [28.010, 86.935]
+        ]
+      },
+      {
+        "name": "Arête ouest (voie Hornbein)",
+        "difficulty": "ED",
+        "description": "L'une des voies les plus difficiles, empruntée pour la première fois par Tom Hornbein et Willi Unsoeld en 1963.",
+        "coordinates": [
+          [27.9881, 86.9253],
+          [27.982, 86.912],
+          [27.978, 86.905]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Camp de Base",
+        "elevation": 5364,
+        "lat": 27.940,
+        "lng": 86.851
+      },
+      {
+        "name": "Camp I",
+        "elevation": 6065,
+        "lat": 27.960,
+        "lng": 86.870
+      },
+      {
+        "name": "Camp II (Camp avancé)",
+        "elevation": 6400,
+        "lat": 27.971,
+        "lng": 86.889
+      },
+      {
+        "name": "Camp III (Lhotse Face)",
+        "elevation": 7200,
+        "lat": 27.976,
+        "lng": 86.905
+      },
+      {
+        "name": "Camp IV (Col Sud)",
+        "elevation": 7950,
+        "lat": 27.980,
+        "lng": 86.916
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1953,
+        "climbers": ["Edmund Hillary", "Tenzing Norgay"],
+        "note": "Première ascension absolue le 29 mai 1953"
+      },
+      {
+        "year": 1975,
+        "climbers": ["Junko Tabei"],
+        "note": "Première femme au sommet"
+      },
+      {
+        "year": 1978,
+        "climbers": ["Reinhold Messner", "Peter Habeler"],
+        "note": "Première ascension sans oxygène supplémentaire"
+      },
+      {
+        "year": 1980,
+        "climbers": ["Reinhold Messner"],
+        "note": "Première ascension en solo et sans oxygène"
+      },
+      {
+        "year": 2019,
+        "climbers": ["Nirmal Purja"],
+        "note": "Record de vitesse : 16h 00min depuis le camp de base"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -36, "windKmh": 120, "precipMm": 15 },
+      { "month": "Fév", "avgTemp": -35, "windKmh": 115, "precipMm": 20 },
+      { "month": "Mar", "avgTemp": -28, "windKmh": 85, "precipMm": 25 },
+      { "month": "Avr", "avgTemp": -22, "windKmh": 65, "precipMm": 35 },
+      { "month": "Mai", "avgTemp": -15, "windKmh": 45, "precipMm": 60 },
+      { "month": "Juin", "avgTemp": -10, "windKmh": 50, "precipMm": 85 },
+      { "month": "Juil", "avgTemp": -8, "windKmh": 55, "precipMm": 95 },
+      { "month": "Août", "avgTemp": -9, "windKmh": 50, "precipMm": 88 },
+      { "month": "Sep", "avgTemp": -14, "windKmh": 48, "precipMm": 50 },
+      { "month": "Oct", "avgTemp": -24, "windKmh": 70, "precipMm": 20 },
+      { "month": "Nov", "avgTemp": -32, "windKmh": 100, "precipMm": 12 },
+      { "month": "Déc", "avgTemp": -36, "windKmh": 118, "precipMm": 10 }
+    ]
+  },
+  {
+    "id": "k2",
+    "name": "K2",
+    "elevation": 8611,
+    "location": { "lat": 35.8825, "lng": 76.5133 },
+    "country": "Pakistan / Chine",
+    "continent": "Asie",
+    "range": "Karakoram",
+    "flagEmoji": "🇵🇰",
+    "description": "La Montagne Sauvage. Deuxième sommet du monde par l'altitude, le K2 est unanimement considéré comme le plus difficile des 8000. Son taux de mortalité reste l'un des plus élevés de l'Himalaya, avec des conditions météorologiques extrêmement imprévisibles.",
+    "firstAscent": {
+      "year": 1954,
+      "climbers": ["Achille Compagnoni", "Lino Lacedelli"]
+    },
+    "routes": [
+      {
+        "name": "Épaule des Abruzzes",
+        "difficulty": "D",
+        "description": "Voie normale par l'arête sud-est, itinéraire le plus fréquenté et le plus technique. Passages expo au-dessus de 8000m.",
+        "coordinates": [
+          [35.8825, 76.5133],
+          [35.878, 76.518],
+          [35.872, 76.522]
+        ]
+      },
+      {
+        "name": "Pilier nord",
+        "difficulty": "ED",
+        "description": "L'une des voies les plus difficiles et les plus mortelles du K2. Très peu de tentatives réussies.",
+        "coordinates": [
+          [35.8825, 76.5133],
+          [35.888, 76.512],
+          [35.892, 76.505]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Camp de Base",
+        "elevation": 5000,
+        "lat": 35.859,
+        "lng": 76.490
+      },
+      {
+        "name": "Camp I",
+        "elevation": 6100,
+        "lat": 35.868,
+        "lng": 76.503
+      },
+      {
+        "name": "Camp IV (Épaule)",
+        "elevation": 7900,
+        "lat": 35.878,
+        "lng": 76.515
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1954,
+        "climbers": ["Achille Compagnoni", "Lino Lacedelli"],
+        "note": "Première ascension lors de l'expédition italienne"
+      },
+      {
+        "year": 1986,
+        "climbers": ["Jerzy Kukuczka", "Tadeusz Piotrowski"],
+        "note": "Première par le pilier magique sud-ouest, Piotrowski disparaît en descente"
+      },
+      {
+        "year": 2021,
+        "climbers": ["Nirmal Purja", "Mingma Gyalje Sherpa", "équipe népalaise"],
+        "note": "Première ascension hivernale de l'histoire le 16 janvier 2021"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -38, "windKmh": 130, "precipMm": 18 },
+      { "month": "Fév", "avgTemp": -37, "windKmh": 125, "precipMm": 22 },
+      { "month": "Mar", "avgTemp": -30, "windKmh": 95, "precipMm": 28 },
+      { "month": "Avr", "avgTemp": -24, "windKmh": 75, "precipMm": 32 },
+      { "month": "Mai", "avgTemp": -17, "windKmh": 55, "precipMm": 45 },
+      { "month": "Juin", "avgTemp": -10, "windKmh": 42, "precipMm": 52 },
+      { "month": "Juil", "avgTemp": -6, "windKmh": 38, "precipMm": 58 },
+      { "month": "Août", "avgTemp": -7, "windKmh": 40, "precipMm": 55 },
+      { "month": "Sep", "avgTemp": -15, "windKmh": 60, "precipMm": 35 },
+      { "month": "Oct", "avgTemp": -25, "windKmh": 88, "precipMm": 22 },
+      { "month": "Nov", "avgTemp": -33, "windKmh": 112, "precipMm": 18 },
+      { "month": "Déc", "avgTemp": -38, "windKmh": 128, "precipMm": 15 }
+    ]
+  },
+  {
+    "id": "kilimanjaro",
+    "name": "Kilimandjaro",
+    "elevation": 5895,
+    "location": { "lat": -3.0674, "lng": 37.3556 },
+    "country": "Tanzanie",
+    "continent": "Afrique",
+    "range": "Massif du Kilimandjaro",
+    "flagEmoji": "🇹🇿",
+    "description": "Le Toit de l'Afrique. Le Kilimandjaro est le plus haut sommet volcanique du continent africain. Ses glaciers millénaires reculent dramatiquement depuis le XXe siècle. Sommet accessible aux randonneurs, il attire plus de 35 000 grimpeurs par an.",
+    "firstAscent": {
+      "year": 1889,
+      "climbers": ["Hans Meyer", "Ludwig Purtscheller"]
+    },
+    "routes": [
+      {
+        "name": "Voie Marangu (Coca-Cola Route)",
+        "difficulty": "F",
+        "description": "L'itinéraire le plus fréquenté avec hébergement en refuge. Ascension sur 5 jours, acclimatation parfois insuffisante.",
+        "coordinates": [
+          [-3.0674, 37.3556],
+          [-3.072, 37.358],
+          [-3.080, 37.366],
+          [-3.088, 37.370]
+        ]
+      },
+      {
+        "name": "Voie Machame (Whiskey Route)",
+        "difficulty": "PD",
+        "description": "Plus longue et spectaculaire, cette voie de 7 jours offre de superbes panoramas. Meilleure acclimatation grâce au profil 'montez haut, dormez bas'.",
+        "coordinates": [
+          [-3.0674, 37.3556],
+          [-3.075, 37.345],
+          [-3.082, 37.338],
+          [-3.079, 37.330]
+        ]
+      },
+      {
+        "name": "Voie Lemosho",
+        "difficulty": "PD",
+        "description": "La plus panoramique, traversant la forêt tropicale et la brousse désertique. Départ peu fréquenté, excellente acclimatation.",
+        "coordinates": [
+          [-3.0674, 37.3556],
+          [-3.065, 37.320],
+          [-3.072, 37.312],
+          [-3.078, 37.320]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Camp Mandara",
+        "elevation": 2720,
+        "lat": -3.045,
+        "lng": 37.368
+      },
+      {
+        "name": "Camp Horombo",
+        "elevation": 3720,
+        "lat": -3.065,
+        "lng": 37.388
+      },
+      {
+        "name": "Camp Kibo",
+        "elevation": 4703,
+        "lat": -3.065,
+        "lng": 37.356
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1889,
+        "climbers": ["Hans Meyer", "Ludwig Purtscheller"],
+        "note": "Première ascension du Uhuru Peak"
+      },
+      {
+        "year": 2019,
+        "climbers": ["Karl Egloff"],
+        "note": "Record de vitesse aller-retour : 4h 56min 16s"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -5, "windKmh": 35, "precipMm": 40 },
+      { "month": "Fév", "avgTemp": -4, "windKmh": 32, "precipMm": 38 },
+      { "month": "Mar", "avgTemp": -3, "windKmh": 30, "precipMm": 80 },
+      { "month": "Avr", "avgTemp": -2, "windKmh": 28, "precipMm": 120 },
+      { "month": "Mai", "avgTemp": -4, "windKmh": 30, "precipMm": 95 },
+      { "month": "Juin", "avgTemp": -7, "windKmh": 38, "precipMm": 25 },
+      { "month": "Juil", "avgTemp": -8, "windKmh": 42, "precipMm": 18 },
+      { "month": "Août", "avgTemp": -8, "windKmh": 40, "precipMm": 22 },
+      { "month": "Sep", "avgTemp": -5, "windKmh": 35, "precipMm": 30 },
+      { "month": "Oct", "avgTemp": -3, "windKmh": 30, "precipMm": 55 },
+      { "month": "Nov", "avgTemp": -2, "windKmh": 28, "precipMm": 90 },
+      { "month": "Déc", "avgTemp": -4, "windKmh": 33, "precipMm": 62 }
+    ]
+  },
+  {
+    "id": "denali",
+    "name": "Denali",
+    "elevation": 6190,
+    "location": { "lat": 63.0692, "lng": -151.0070 },
+    "country": "États-Unis (Alaska)",
+    "continent": "Amérique du Nord",
+    "range": "Alaska Range",
+    "flagEmoji": "🇺🇸",
+    "description": "Le toit de l'Amérique du Nord. Le Denali, anciennement McKinley, est le sommet le plus septentrional parmi les Seven Summits. Ses températures arctiques peuvent descendre à -50°C et les tempêtes sont imprévisibles. L'altitude relative par rapport à sa base est la plus grande du monde.",
+    "firstAscent": {
+      "year": 1913,
+      "climbers": ["Hudson Stuck", "Harry Karstens", "Walter Harper", "Robert Tatum"]
+    },
+    "routes": [
+      {
+        "name": "West Buttress",
+        "difficulty": "PD",
+        "description": "La voie normale, empruntée par 90% des grimpeurs. Ascension de 3 à 4 semaines depuis le camp de base glacier.",
+        "coordinates": [
+          [63.0692, -151.007],
+          [63.068, -151.020],
+          [63.058, -151.018]
+        ]
+      },
+      {
+        "name": "Cassin Ridge",
+        "difficulty": "ED",
+        "description": "Voie mythique ouverte par Riccardo Cassin en 1961. L'une des lignes les plus esthétiques et techniques d'Amérique du Nord.",
+        "coordinates": [
+          [63.0692, -151.007],
+          [63.073, -150.995],
+          [63.076, -150.988]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Camp de Base Glacier Kahiltna",
+        "elevation": 2200,
+        "lat": 62.992,
+        "lng": -151.167
+      },
+      {
+        "name": "Camp III",
+        "elevation": 4450,
+        "lat": 63.032,
+        "lng": -151.052
+      },
+      {
+        "name": "Camp IV (Haut camp)",
+        "elevation": 5242,
+        "lat": 63.055,
+        "lng": -151.025
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1913,
+        "climbers": ["Hudson Stuck", "Harry Karstens"],
+        "note": "Première ascension du sommet principal"
+      },
+      {
+        "year": 1961,
+        "climbers": ["Riccardo Cassin"],
+        "note": "Première de la Cassin Ridge, en 5 jours"
+      },
+      {
+        "year": 1991,
+        "climbers": ["Anatoli Boukreev"],
+        "note": "Traversée complète en 10h 30min"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -40, "windKmh": 95, "precipMm": 25 },
+      { "month": "Fév", "avgTemp": -38, "windKmh": 90, "precipMm": 28 },
+      { "month": "Mar", "avgTemp": -32, "windKmh": 78, "precipMm": 35 },
+      { "month": "Avr", "avgTemp": -22, "windKmh": 65, "precipMm": 42 },
+      { "month": "Mai", "avgTemp": -15, "windKmh": 52, "precipMm": 55 },
+      { "month": "Juin", "avgTemp": -8, "windKmh": 42, "precipMm": 60 },
+      { "month": "Juil", "avgTemp": -4, "windKmh": 38, "precipMm": 65 },
+      { "month": "Août", "avgTemp": -6, "windKmh": 40, "precipMm": 58 },
+      { "month": "Sep", "avgTemp": -18, "windKmh": 60, "precipMm": 40 },
+      { "month": "Oct", "avgTemp": -28, "windKmh": 75, "precipMm": 30 },
+      { "month": "Nov", "avgTemp": -35, "windKmh": 88, "precipMm": 26 },
+      { "month": "Déc", "avgTemp": -40, "windKmh": 92, "precipMm": 24 }
+    ]
+  },
+  {
+    "id": "aconcagua",
+    "name": "Aconcagua",
+    "elevation": 6962,
+    "location": { "lat": -32.6532, "lng": -70.0109 },
+    "country": "Argentine",
+    "continent": "Amérique du Sud",
+    "range": "Andes",
+    "flagEmoji": "🇦🇷",
+    "description": "Toit des Amériques et des hémisphères occidental et austral. L'Aconcagua est le plus haut sommet en dehors de l'Asie. Sa voie normale est accessible sans corde mais les vents violents (viento blanco) et la déshydratation constituent les principaux dangers.",
+    "firstAscent": {
+      "year": 1897,
+      "climbers": ["Matthias Zurbriggen"]
+    },
+    "routes": [
+      {
+        "name": "Voie Normale (Nord)",
+        "difficulty": "PD",
+        "description": "L'itinéraire classique depuis Mendoza par la vallée des Horcones. Ascension technique modérée, surtout exigeante à haute altitude.",
+        "coordinates": [
+          [-32.6532, -70.0109],
+          [-32.643, -70.012],
+          [-32.632, -70.015],
+          [-32.620, -70.018]
+        ]
+      },
+      {
+        "name": "Face Sud (voie directe)",
+        "difficulty": "ED",
+        "description": "La face la plus technique et dangereuse. Dénivelé de 2800m sur glace vive, avec sections verticales.",
+        "coordinates": [
+          [-32.6532, -70.0109],
+          [-32.660, -70.012],
+          [-32.668, -70.015]
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "name": "Plaza de Mulas (camp de base)",
+        "elevation": 4300,
+        "lat": -32.612,
+        "lng": -70.043
+      },
+      {
+        "name": "Camp Canada",
+        "elevation": 5050,
+        "lat": -32.626,
+        "lng": -70.026
+      },
+      {
+        "name": "Nido de Condores",
+        "elevation": 5550,
+        "lat": -32.637,
+        "lng": -70.021
+      },
+      {
+        "name": "Camp Colera (haut camp)",
+        "elevation": 6000,
+        "lat": -32.646,
+        "lng": -70.015
+      }
+    ],
+    "legendaryAscents": [
+      {
+        "year": 1897,
+        "climbers": ["Matthias Zurbriggen"],
+        "note": "Première ascension en solitaire"
+      },
+      {
+        "year": 2003,
+        "climbers": ["Karl Egloff"],
+        "note": "Record aller-retour : 11h 52min depuis Plaza de Mulas"
+      }
+    ],
+    "weather": [
+      { "month": "Jan", "avgTemp": -5, "windKmh": 45, "precipMm": 12 },
+      { "month": "Fév", "avgTemp": -6, "windKmh": 48, "precipMm": 10 },
+      { "month": "Mar", "avgTemp": -10, "windKmh": 52, "precipMm": 8 },
+      { "month": "Avr", "avgTemp": -16, "windKmh": 65, "precipMm": 15 },
+      { "month": "Mai", "avgTemp": -20, "windKmh": 75, "precipMm": 20 },
+      { "month": "Juin", "avgTemp": -24, "windKmh": 85, "precipMm": 18 },
+      { "month": "Juil", "avgTemp": -26, "windKmh": 90, "precipMm": 15 },
+      { "month": "Août", "avgTemp": -24, "windKmh": 82, "precipMm": 12 },
+      { "month": "Sep", "avgTemp": -20, "windKmh": 70, "precipMm": 10 },
+      { "month": "Oct", "avgTemp": -14, "windKmh": 58, "precipMm": 8 },
+      { "month": "Nov", "avgTemp": -8, "windKmh": 48, "precipMm": 10 },
+      { "month": "Déc", "avgTemp": -5, "windKmh": 42, "precipMm": 12 }
+    ]
+  }
+]

@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Next.js
+.next/
+out/
+
+# Cesium generated assets (copied during build)
+public/cesium/
+
+# Environment
+.env.local
+.env*.local
