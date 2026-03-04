@@ -22,9 +22,9 @@ export const DIFFICULTY_CONFIG: Record<
   },
   PD: {
     label: "PD — Peu Difficile",
-    color: "border-cyan-500",
-    bg: "bg-cyan-500/20",
-    textColor: "text-cyan-400",
+    color: "border-lime-500",
+    bg: "bg-lime-500/20",
+    textColor: "text-lime-400",
   },
   AD: {
     label: "AD — Assez Difficile",
